@@ -9,12 +9,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MediaListComponent } from './components/media-list/media-list.component';
+import { AddMediaComponent } from './components/add-media/add-media.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MediaListComponent,
+    AddMediaComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MediaListComponent } from './components/media-list/media-list.component';
 import { AddMediaComponent } from './components/add-media/add-media.component';
+import { MediaItemComponent } from './components/media-item/media-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddMediaComponent } from './components/add-media/add-media.component';
     HeaderComponent,
     FooterComponent,
     MediaListComponent,
-    AddMediaComponent
+    AddMediaComponent,
+    MediaItemComponent
   ],
   imports: [
     BrowserModule,

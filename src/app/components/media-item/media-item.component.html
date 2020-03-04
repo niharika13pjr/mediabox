@@ -1,0 +1,13 @@
+<h2>{{ mediaItem.name }}</h2>
+<div>{{ mediaItem.category }}</div>
+<div>{{ mediaItem.year }}</div>
+<div class="tools">
+  <mat-icon class="example-icon" aria-hidden="false" aria-label="Add media">star_border</mat-icon>
+
+  <a class="delete" (click)="onDelete()">
+    remove
+  </a>
+  <a class="details">
+    watch
+  </a>
+</div>

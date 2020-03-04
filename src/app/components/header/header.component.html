@@ -1,6 +1,12 @@
 <mat-toolbar color="primary">
-  <mat-icon>
-    movie
-  </mat-icon>
+  <mat-toolbar-row>
+  <mat-icon> movie </mat-icon>
   <div class="media-title">MediaBox</div>
+    <span class="example-spacer"></span>
+    <a [routerLink]="'/add-media'" class="add-media-container">
+      <mat-icon class="example-icon" aria-hidden="false" aria-label="Add media">add</mat-icon>
+      <div> Media </div>
+    </a>
+  </mat-toolbar-row>
 </mat-toolbar>
+

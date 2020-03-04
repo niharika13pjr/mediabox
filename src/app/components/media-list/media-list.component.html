@@ -1,3 +1,8 @@
-<p>
-  media-list works!
-</p>
+<section>
+  <app-media-item
+    *ngFor="let mediaItem of mediaItems"
+    [mediaItem]="mediaItem"
+    (delete)="onMediaItemDelete($event)"
+  >
+  </app-media-item>
+</section>
